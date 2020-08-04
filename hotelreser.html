@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Hotel</title>
+<link rel="stylesheet"type="text/css"href="hotel.css"/>
+</head>
+<body>
+<h1> Anantara Kalutara Resort</h1>
+<hr>
+
+<div class="tab">
+  <button class="link" onclick="openTab(event, 'Home')">Home</button>
+  <button class="link" onclick="openTab(event, 'About us')">About us</button>
+  <button class="link" onclick="openTab(event, 'Contact Us')">Contact Us</button>
+  <button class="link" onclick="openTab(event, 'Hotel Reservation')">Hotel Reservation</button>
+  <button class="link" onclick="openTab(event, 'Multiple Hotel')">Multiple Hotel</button>
+  <button class="link" onclick="openTab(event, 'Registration')">Registration</button>
+	
+
+</div>
+	<div id="Home" class="tabcontent">
+		<img src="C:\Users\User\Desktop\resources\Anantara-Kalutara-Sri-Lanka-pool-and-resort.jpg" style="height:750px;width:1300px;">
+
+
+
+
+	</div>
+	<div id="About us" class="tabcontent">
+		<img src="C:\Users\User\Desktop\resources\onefinemoment.jpg" style="height:750px;width:1300px;">
+	</div>
+	<div id="Contact Us" class="tabcontent">
+		<img src="C:\Users\User\Desktop\resources\anantara_kalutara_contactus_intro_944x510.webp" style="height:750px;width:1300px;">
+
+<p>
+	<b> <u> Contact Details </u> </b>
+	<table>
+		
+	</table>
+</p>
+
+
+
+
+
+	</div>
+	<div id="Hotel Reservation" class="tabcontent">
+		<img src="C:\Users\User\Desktop\resources\one_bedroom_pool_villa.webp" style="height:750px;width:1300px;">
+	</div>
+	<div id="Multiple Hotel" class="tabcontent">
+		<img src="C:\Users\User\Desktop\resources\Anantara-Peace-Haven-Tangalle-Resort-3.jpg" style="height:750px;width:1300px;">
+	</div>
+	<div id="Registration" class="tabcontent">
+		<img src="C:\Users\User\Desktop\resources\exterior.jpg" style="height:650px;width:1000px;">
+	</div>
+<div class="name"><h1>Anantara Kalutara </h1></div>
+<script>
+
+function openTab(evt, tab) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("link");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tab).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>
