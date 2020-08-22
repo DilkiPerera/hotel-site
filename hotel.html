@@ -1,0 +1,358 @@
+<html>
+<head>
+	<title>Hotel</title>
+	<link rel="stylesheet"type="text/css"href="hotel.css"/>
+</head>
+
+<body>
+	<div class="padding">
+	<p> 
+		<i> 
+			<b>
+				<font color="black"> 
+					<marquee direction="left">Special Offer for People's Bank Account Holders - Get 50% Off Villas and Suites until December 2020 when you pay with your credit card!</marquee> 
+				</font> 
+			</b> 
+		</i> 
+	</p>
+		<hr color="gold">
+		<div class="tab">
+		  <button class="link" id="defaultOpen" onclick="openTab(event, 'Home')">Home</button>
+		  <button class="link" onclick="openTab(event, 'About us')">About us</button>
+		  <button class="link" onclick="openTab(event, 'Contact Us')">Contact Us</button>
+		  <button class="link" onclick="openTab(event, 'Hotel Reservation')">Hotel Reservation</button>
+		  <button class="link" onclick="openTab(event, 'Multiple Hotel')">Multiple Hotel</button>
+		  <button class="link" onclick="openTab(event, 'Registration')">Registration</button>
+		</div>
+
+		<div id="Home" class="tabcontent">
+			<img src="C:\Users\User\Desktop\resources\Anantara-Kalutara-Sri-Lanka-pool-and-resort.webp" style="height:750px;width:1300px;"> <br>
+
+			<font color= "gold" align="center"> <h2> Best Resort In Kalutara  </h2> </font>
+			<p> <strong> <h3> Located only an hour from the Bandaranaike International Airport. Anantara Kalutara Resort boasts a secluded beachfront setting on the picturesque southwest coast. Bring your sense of wanderlust to this paradise where the Kalu Ganga River meets the Indian Ocean. Luxuriate in elegant havens infused with the architectural vision of Geoffery Bawa. With a host of inspired dining options, recreation-including for children- and an Ayurvedic spa retreat. We welcome you to enjoy island life at one of the most sought after Kalutara hotels. </h3> </strong> </p><br>
+
+			<font color="gold" align="center"> <h2> At A Glimpse </h2> </font> 
+			<p> <strong> <h3>
+				<table>
+					 The only luxury resort in Sri Lanka with 360-degree ocean and lagoon views <br>
+					 Unique Indian Ocean and Klu Ganga estuary frontage<br>
+					 141 rooms. Suites and pool villas<br>
+					 Geoffery Bawa-inspired architecture <br>
+					 State-of-the-art conference and wedding facilities for intimate or large gatherings<br>
+				</table>
+				 </h3></strong></p> <br>
+
+				 <table> 
+					<tr> 
+					      <td> <h1> <font color="brown"> 87% </font> </h1> </td>
+				 
+					      <td> <i> of our guests would recommend this hotel </i> </td>
+					      
+					</tr>
+
+
+				</table>
+
+				<font color="gold" align="center"><h2> In Other Words </h2> </font>
+					<p> <strong> <h3> The distinctive Geoffery Bawa feel is everywhere. The large Ena De Silva batik upstairs of the lobby and the entire lobby area is breathtaking. Highly recommended. </h3> </strong> </p>
+					<hr color="gold">
+					<h5>MALAKA T.</h5>
+					<h6> COLOMBO </h6>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div id="About us" class="tabcontent">
+			<img src="C:\Users\User\Desktop\resources\th.jpg" style="height:750px;width:1300px;">
+		</div>
+
+
+
+		<div id="Contact Us" class="tabcontent">
+			<img src="C:\Users\User\Desktop\resources\anantara_kalutara_contactus_intro_944x510.webp" style="height:750px;width:1300px;">
+
+		    <p>
+				<b> <u> Contact Details </u> </b>
+				<table>
+
+					
+				</table>
+			</p>
+		</div>
+
+
+
+
+		<div id="Hotel Reservation" class="tabcontent">
+			<img src="C:\Users\User\Desktop\resources\kalutara-page-banner-1.jpg" style="height:750px;width:1300px;">
+			<br> <br> <br>
+
+			<form action="" method="GET">
+				<fieldset>
+					<legend> Personal Details: </legend>
+
+					<label for="name"> User Name: </label>
+					<input type="text" name="username" id="name" required autofocus placeholder="your username" title="please enter your name">
+
+					<label for="email"> Email Address: </label>
+					<input type="text" name="email" id="name" required autofocus placeholder="your email" title="please enter your email here">
+
+					<label for="phone"> Phone Number: </label>
+					<input type="tel" name="phone" id="name" required autofocus placeholder="your username" title="please enter your phone number">
+
+					<label for="country"> Country Name:</label>
+					<select name="country" required>
+						<option value="SL"> Sri Lanka </option>
+						<option value="US"> US </option>
+						<option value="UK"> UK </option>
+					</select>
+
+				</fieldset>
+				<br>
+
+				<fieldset>
+					<legend> Booking Details: </legend>
+
+					<label for="date"> Booking Date: </label>
+					<input type="date" name="date" min="2020-08-01">
+
+					<label for="number"> Number Of Guests: </label>
+					<input type="number" name="numberofguests" min="1" max="6">
+
+					<br>
+
+					<p> Do you require meal plans? </p>
+					<label for="meal">Yes:</label>
+					<input type="radio" name="meal" value="yesmeal">
+
+					<label for="meal">No:</label>
+					<input type="radio" name="meal" value="nomeal">
+					<br>
+
+					<p> Features </p>
+					<label for="bal"> Balcony:</label>
+					<input type="checkbox" name="balcony" value="yes">
+
+					<label for="bal"> Sea Side:</label>
+					<input type="checkbox" name="seaside" value="yes">
+
+					<label for="bal"> Lagoon Side:</label>
+					<input type="checkbox" name="lagoon" value="yes">
+
+					<br> <br>
+
+					<label for="submit"> Submit </label>
+					<input type="submit" name="submit">
+
+
+				</fieldset>
+			</form>
+
+		</div>
+		<div id="Multiple Hotel" class="tabcontent">
+			<img src="C:\Users\User\Desktop\resources\Anantara-Tangalle-Peace-Haven-Resort-3.jpg" style="height:750px;width:1300px;">
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+       $(document).ready(function(){
+	     $(".button").click(function(){
+		  var name=$(this).attr("data-filter");
+		  if(name == "all"){
+		    $(".filter").show("2000");
+		  }
+		  else{
+		   $(".filter").not("."+name).hide("2000");
+		   $(".filter").filter("."+name).show("2000");
+		  }
+		  
+		 });
+	   });
+  
+  </script>
+   <style>
+        body
+		{
+		  font- family:arial;
+		  background-color:#efefef;
+		}
+		.navigation
+		{
+		  padding :15px 0px
+		}
+		.navigation a
+		{
+		  margin-right:5px;
+		  text-decoration:none;
+		  border:1px solid #ccc;
+		  padding: 7px 20px;
+		  border-radius:50px;
+		  color:#1B1464;
+		}
+		.navigation a.active
+		{
+		  background-color:#D980FA;
+		  border-color:#6F1E51;
+		  color-#FDA7DF;
+		}
+		.ImageContainer div{
+		   display:inline-block;
+		}
+		img{
+		  margin:5px;
+		  width:400px;
+		  height:200opx;
+		}
+   
+   </style>
+</head>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+		<div id="Registration" class="tabcontent">
+			<img src="C:\Users\User\Desktop\resources\Anantara-Kalutara-Sri-Lanka-pool-and-resort.webp" style="height:750px;width:1300px;">
+			<h3> Responsive Checkout Form </h3>
+			 <div class="row">
+			 	<div class="col-75">
+			 		<div class="container">
+			 			<form action="/action_page.php">
+			 				<div class="row">
+			 					<div class="col-58">
+			 						<h3> Billing Address </h3>
+			 	<label for="fname"> <i class="fa fa-user"> </i> Full Name </label>	
+			 	<input type="text" id="fname" name="firstname" placeholder="John M. Done">
+
+			 	<label for="email"> <i class="fa fa-envolope"> </i> Email </label>	
+			 	<input type="text" id="email" name="email" placeholder="jhon@example.com">
+
+			 	<label for="adr"> <i class="fa fa-address-caed-o"> </i> Address</label>	
+			 	<input type="text" id="adr" name="address" placeholder="John M. Done">
+
+			 	<label for="city"> <i class="fa fa-institution"> </i> City</label>	
+			 	<input type="text" id="city" name="city" placeholder="John M. Done">
+
+			 			</div>
+			 				</div>
+			 			</form>
+			 					
+			 				</div>
+			 		</div>
+			 	</div>
+		 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+	
+<div class="name"> <h1> <i> <font color="white"> Anantara Kalutara </font> </i> </h1> </div>
+<script>
+
+function openTab(evt, tab) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("link");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tab).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+
+</script>
+</body>
+</html>
